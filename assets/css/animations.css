@@ -1,0 +1,36 @@
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: 0.8s ease;
+}
+.reveal.visible {
+  opacity: 1;
+  transform: none;
+}
+.delay {
+  transition-delay: 0.15s;
+}
+.skills article {
+  transition: 0.35s;
+}
+.skills article:hover {
+  transform: translateY(-8px);
+  border-color: #8b7cff88;
+  box-shadow: 0 25px 70px #0008;
+}
+.orb {
+  animation: float 7s ease-in-out infinite;
+}
+@keyframes float {
+  50% {
+    transform: translateY(-20px);
+  }
+}
+.terminal strong {
+  animation: blink 1s steps(2) infinite;
+}
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
