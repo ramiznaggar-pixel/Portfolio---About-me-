@@ -8,8 +8,5 @@ The form is connected to FormSubmit and submits to **ramiz.naggar@gmail.com**. O
 ## WhatsApp
 The WhatsApp button opens a chat with **+20 111 562 0044**.
 
-## Run locally
-Open `index.html` with VS Code Live Server or another local static server.
-
 ## Deploy
 The site can be deployed to GitHub Pages, Netlify, Vercel, or any static host.
